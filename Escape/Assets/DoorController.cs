@@ -11,7 +11,7 @@ public class DoorController : MonoBehaviour
     private int[] inputed = {0,0,0,0};
     private bool open = false;
     static int input;
-    public AudioSource soundSource;
+    private AudioSource soundSource;
     public AudioClip success;
     public AudioClip buzzer;
 
