@@ -40,12 +40,16 @@ public class DoorController : MonoBehaviour
             }
             if (inputed[3] != 0) {
                 if (inputed.SequenceEqual(password)) {
-                    //Sucess se
+                    soundSource.clip=success; 
+                    soundSource.Play();
+
                     open = true;
                     rb.velocity = new Vector3(0,2,0);
                 }
                 else {
-                    //Buzzer
+                    soundSource.clip=buzzer; 
+                    soundSource.Play();
+
                     inputed = new int[] {0,0,0,0};
                 }
             }
