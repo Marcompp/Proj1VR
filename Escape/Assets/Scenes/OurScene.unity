@@ -3075,6 +3075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   password: 01000000020000000300000004000000
+  success: {fileID: 0}
+  buzzer: {fileID: 0}
 --- !u!54 &1704890999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3102,7 +3104,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 65b3207f91d67094e87be85dbe54c89d, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
